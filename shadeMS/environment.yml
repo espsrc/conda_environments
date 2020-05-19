@@ -1,0 +1,21 @@
+name: shadems
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - gxx_linux-64
+ - boost
+ - casacore
+ - python=3.6
+ - future_fstrings
+ - colorcet
+ - dask
+ - datashader
+ - holoviews
+ - matplotlib
+ - numpy
+ - pandas
+ - setuptools
+ - pip
+ - pip:
+   - msutils
